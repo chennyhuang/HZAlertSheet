@@ -15,6 +15,7 @@
 		EE67585820E204BB0040FF92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67585720E204BB0040FF92 /* main.m */; };
 		EE67586220E204BB0040FF92 /* HZAlertSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67586120E204BB0040FF92 /* HZAlertSheetTests.m */; };
 		EE67586D20E204BB0040FF92 /* HZAlertSheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67586C20E204BB0040FF92 /* HZAlertSheetUITests.m */; };
+		EE67587C20E204CE0040FF92 /* HZAlertSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67587A20E204CE0040FF92 /* HZAlertSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EE67586820E204BB0040FF92 /* HZAlertSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZAlertSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE67586C20E204BB0040FF92 /* HZAlertSheetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZAlertSheetUITests.m; sourceTree = "<group>"; };
 		EE67586E20E204BB0040FF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE67587A20E204CE0040FF92 /* HZAlertSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZAlertSheet.m; sourceTree = "<group>"; };
+		EE67587B20E204CE0040FF92 /* HZAlertSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZAlertSheet.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		EE67584720E204BB0040FF92 /* HZAlertSheet */ = {
 			isa = PBXGroup;
 			children = (
+				EE67587B20E204CE0040FF92 /* HZAlertSheet.h */,
+				EE67587A20E204CE0040FF92 /* HZAlertSheet.m */,
 				EE67584820E204BB0040FF92 /* AppDelegate.h */,
 				EE67584920E204BB0040FF92 /* AppDelegate.m */,
 				EE67584B20E204BB0040FF92 /* ViewController.h */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE67587C20E204CE0040FF92 /* HZAlertSheet.m in Sources */,
 				EE67584D20E204BB0040FF92 /* ViewController.m in Sources */,
 				EE67585820E204BB0040FF92 /* main.m in Sources */,
 				EE67584A20E204BB0040FF92 /* AppDelegate.m in Sources */,
@@ -431,7 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU5KU23LFX;
 				INFOPLIST_FILE = HZAlertSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.retech.HZAlertSheet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +452,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU5KU23LFX;
 				INFOPLIST_FILE = HZAlertSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.retech.HZAlertSheet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
