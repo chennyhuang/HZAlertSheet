@@ -3,4 +3,4 @@
 自定义 alertsheet
 ## 预览
 
-![样式图](https://github.com/chennyhuang/HZAlertSheet/blob/master/screen.gif ){:height="50%" width="50%"}
+![样式图](https://github.com/chennyhuang/HZAlertSheet/blob/master/screen.gif )
